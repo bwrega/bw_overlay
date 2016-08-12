@@ -4,14 +4,14 @@
 <repo quality="experimental" status="unofficial">
 <name>bw_overlay</name>
 <description lang="en">bwrega's portage overlay</description>
-<homepage>https://github.com/wregab/bw_overlay</homepage>
+<homepage>https://github.com/bwrega/bw_overlay</homepage>
 <owner type="person">
 <email>bwrega@gmail.com</email>
 <name>Bartlomiej Wrega</name>
 </owner>
-<source type="git">https://github.com/wregab/bw_overlay.git</source>
-<source type="git">git://github.com/wregab/bw_overlay.git</source>
-<source type="git">git@github.com:wregab/bw_overlay.git</source>
-<feed>https://github.com/wregab/bw_overlay/commits/master.atom</feed>
+<source type="git">https://github.com/bwrega/bw_overlay.git</source>
+<source type="git">git://github.com/bwrega/bw_overlay.git</source>
+<source type="git">git@github.com:bwrega/bw_overlay.git</source>
+<feed>https://github.com/bwrega/bw_overlay/commits/master.atom</feed>
 </repo>
 </repositories>
