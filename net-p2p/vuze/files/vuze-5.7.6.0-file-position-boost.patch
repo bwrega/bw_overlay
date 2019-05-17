@@ -1,0 +1,24 @@
+--- a/com/aelitis/azureus/core/peermanager/piecepicker/impl/PiecePickerImpl.java
++++ b/com/aelitis/azureus/core/peermanager/piecepicker/impl/PiecePickerImpl.java
+@@ -1279,6 +1279,7 @@ implements PiecePicker
+ 								hasFirstLastPriority = true;
+ 							}
+ 						}
++						priority += positionInFileBoost(i, fileInfo.getFirstPieceNumber(), fileInfo.getLastPieceNumber());
+ 						
+ 						// if the file is high-priority
+ 						// startPriority +=(1000 *fileInfo.getPriority()) /255;
+@@ -1386,6 +1387,13 @@ implements PiecePicker
+ 		startPriorities =newPriorities;
+ 	}
+ 
++	private static int positionInFileBoost(int piece, int firstPiece, int lastPiece) {
++		int fileLength = lastPiece - firstPiece + 1;
++		long pieceIndex = lastPiece - piece;
++		int positionPercent = (int) ((pieceIndex * 100L) / fileLength);
++		return positionPercent;
++	}
++
+ 
+ 	private final boolean isRarestOverride()
+ 	{
