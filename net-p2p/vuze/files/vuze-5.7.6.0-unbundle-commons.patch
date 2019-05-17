@@ -1,5 +1,3 @@
-diff --git a/com/aelitis/azureus/core/metasearch/Result.java b/com/aelitis/azureus/core/metasearch/Result.java
-index b0ea714..96d6daf 100644
 --- a/com/aelitis/azureus/core/metasearch/Result.java
 +++ b/com/aelitis/azureus/core/metasearch/Result.java
 @@ -28,7 +28,7 @@ import java.util.Locale;
@@ -19,8 +17,6 @@ index b0ea714..96d6daf 100644
 +		return( StringEscapeUtils.unescapeHtml( input ));
  	}
  }
-diff --git a/com/aelitis/azureus/core/metasearch/impl/web/WebResult.java b/com/aelitis/azureus/core/metasearch/impl/web/WebResult.java
-index 4c73e08..d561180 100644
 --- a/com/aelitis/azureus/core/metasearch/impl/web/WebResult.java
 +++ b/com/aelitis/azureus/core/metasearch/impl/web/WebResult.java
 @@ -87,14 +87,14 @@ public class WebResult extends Result {
