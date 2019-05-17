@@ -65,7 +65,7 @@ src_prepare() {
 	epatch "${FILESDIR}"/${PN}-5.3.0.0-unbundle-json.patch
 	epatch "${FILESDIR}"/${PN}-5.7.6.0-unbundle-commons.patch
 	epatch "${FILESDIR}"/${PN}-5.6.0.0-commons-lang-entities.patch
-	epatch "${FILESDIR}"/${PN}-5.6.0.0-file-position-boost.patch
+	epatch "${FILESDIR}"/${PN}-5.7.6.0-file-position-boost.patch
 #	epatch "${FILESDIR}"/${P}-use-jdk-cipher-only.patch # bcprov
 
 	# OSX / Windows
