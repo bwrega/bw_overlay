@@ -5,7 +5,7 @@ EAPI=5
 
 EGIT_REPO_URI="git://github.com/klange/${PN}.git
 https://github.com/klange/${PN}.git"
-inherit git-2
+inherit git-r3
 
 DESCRIPTION="Nyancat rendered with various bits of ANSI"
 HOMEPAGE="http://miku.acm.uiuc.edu/ https://github.com/klange/nyancat"
