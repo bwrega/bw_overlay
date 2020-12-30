@@ -1,7 +1,7 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 CMAKE_USE_DIR="${S}/src/MEGAShellExtDolphin"
 CMAKE_IN_SOURCE_BUILD=y
